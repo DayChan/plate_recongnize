@@ -1,0 +1,38 @@
+<view class='container'>
+  <view class="second">
+     <button   class='about-banner' style="background-image:url(/images/camera.png); background-size:100% 100%;" plain='true' bindtap="clickcam"></button>
+     <!--<image class='about-banner' src="/images/camera.png"></image> -->
+     <!--<image class="about-banner-ex" src="/images/photo1.png"></image>-->
+    <view class="second">
+      <view class="class-text-two">
+          <picker bindchange="bindPickerChange" value="{{indexPicker}}" range="{{array}}">
+            <view class="picker">
+              {{array[indexPicker]}}
+            </view>
+          </picker>
+      </view>
+      <image class="about-banner-exx" src="/images/xiala.png"></image>
+    </view>
+     <!--<view>
+     <text class="class-text-two">请选择违章原因</text>
+     <image class="about-banner-exx" src="/images/xiala.png"></image>
+     </view>-->
+     
+  </view>
+
+
+  
+  <view class="inputView" style="margin-top: -15% ">
+    <textarea  placeholder="在此添加备注" class="input"  bindconfirm="confirmInput"/>
+  </view>
+  
+  <!--<view class="inputView" style="margin-top: -15% ">
+    <input class="input"  placeholder="在此添加备注" placeholder-style="color: white" bindinput="listenerPasswordInput"/>
+  </view>-->
+
+
+
+  
+  <view class="class-text-three" bindtap="uploadClick">提交</view>
+  
+</view>

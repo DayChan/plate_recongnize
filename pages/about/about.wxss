@@ -1,0 +1,12 @@
+
+.about-banner{
+  width: 375rpx;
+  height: 400rpx;
+}
+.class-text{
+   color: white;
+   font-size:55rpx;
+   line-height: 100rpx;
+   text-decoration-line: underline;
+   font-family: '楷体';
+}

@@ -1,0 +1,12 @@
+<view class='container'>
+ <image class='about-banner' src="/images/yes.png"></image>
+
+ <text class="class-text">感谢您的参与</text>
+ <text class="class-text-one">识别到的车牌为:{{plateNum}} </text>
+ <!--<text class="class-text-two">若识别到的车牌有误，请
+ 在这里手动输入</text>-->
+ <textarea class="class-text-two" placeholder="识别到的车牌有误，请在这里手动输入" bindconfirm="inputCon"/>
+ <navigator  open-type="navigateBack">
+    <view class="class-text-ex" bindtap="clickedit">提交</view>
+ </navigator>
+</view>

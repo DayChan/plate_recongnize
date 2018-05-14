@@ -1,0 +1,35 @@
+.about-banner{
+  width: 400rpx;
+  height: 400rpx;
+}
+.class-text{
+  color: white;
+   font-size:60rpx;
+   font-family: "楷体";
+   line-height: 100rpx;
+}
+.class-text-one{
+  color:gray;
+  font-family: "楷体";
+  font-size:40rpx;
+}
+.class-text-two{
+  height: 10vh;
+  background-color: white;
+  color:gray;
+  font-family: "楷体";
+  font-size:40rpx;
+  border-radius: 5px;
+}
+.word{
+   line-height: 100rpx;
+}
+.class-text-ex{
+   color: white;
+   font-size:60rpx;
+   font-family: "楷体";
+   line-height: 100rpx;
+  border: 4rpx solid white;
+  margin: 20rpx;
+  border-radius: 5px;
+}

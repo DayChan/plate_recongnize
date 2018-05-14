@@ -1,0 +1,92 @@
+.about-banner{
+  width: 350rpx;
+  height: 350rpx;
+  margin-left: 110rpx;
+}
+.about-banner-ex{
+  width:100rpx;
+  height:80rpx;
+  margin-left:10rpx;
+}
+.about-banner-exx{
+  width:60rpx;
+  height:60rpx;
+  margin-left: 10rpx;
+
+}
+.class-text-two{
+  width: 120rpx;
+  height: 70rpx;
+  background-color: white;
+  color:gray;
+  font-size:30rpx;
+  border-radius: 10px;
+  margin-left: 80rpx;
+}
+.class-text-three{
+  background-color: white;
+  color:gray;
+  font-family: "楷体";
+  font-size:60rpx;
+  border-radius: 5px;
+}
+.white{
+  background-color: white;
+  color:white;
+  font-family: "楷体";
+  font-size:40rpx;
+} 
+.about-xia{
+  width: 50rpx;
+  height:50rpx;
+}
+.margin{
+  border: 4rpx solid white;
+  margin: 20rpx;
+  text-align: center;
+  color:white;
+  font-family: "楷体";
+  font-size:40rpx;
+}
+.section{
+  border: 4rpx solid white;
+  margin: 60rpx;
+  font-family: "楷体";
+  font-size:60rpx;
+}
+.white-ex{
+  background-color: white;
+  color:white;
+  font-family: "楷体";
+  font-size:60rpx;
+  border-radius: 30px;
+}
+.jianju{
+  line-height: 120rpx;
+}
+.input{
+    padding-left: 30px;
+    height: 130px;
+}
+
+.inputView{
+    border:  2px solid white;
+    border-radius: 30px;
+    margin-left:15px;
+    margin-right: 15px;
+    margin-top: 0px;
+}
+
+.free-horizontalScroll{
+  white-space: nowrap;
+}
+.free-horizontalScroll-item{
+  width:100%;
+  display: inline-block;
+  white-space: pre-wrap;
+}
+
+.second{
+  display : flex ;
+  
+}

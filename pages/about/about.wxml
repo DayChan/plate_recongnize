@@ -1,0 +1,12 @@
+<view class='container'>
+     <image class='about-banner' src="/images/person.png"></image>
+<view>
+  <navigator url="/pages/about_us/about_us">
+    <view class="class-text">关于我们</view>
+  </navigator>
+  <navigator url="/pages/history/history">
+    <view class="class-text">历史记录</view>
+  </navigator> 
+</view>
+
+</view>

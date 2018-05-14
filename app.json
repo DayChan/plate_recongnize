@@ -1,0 +1,22 @@
+{
+  "pages": ["pages/camera/camera","pages/about/about","pages/end/end","pages/about_us/about_us","pages/history/history"],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/camera/camera",
+        "iconPath": "images/icons/camera2.png",
+        "selectedIconPath": "images/icons/camera1.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "images/icons/person2.png",
+        "selectedIconPath": "images/icons/person1.png"
+      }
+    ],
+    "borderstyle":"MediumAquamarine"
+   
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"}
+}

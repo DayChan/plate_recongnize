@@ -1,0 +1,10 @@
+App({
+  data: {
+    plateNum: 'abc',
+
+
+
+  }
+
+
+})
