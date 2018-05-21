@@ -24,7 +24,8 @@ Page({
       }
     ],
     indexPicker: 0,
-    note: "无"
+    note: "无",
+    tempFilePaths: ""
 
    
   },
@@ -56,13 +57,17 @@ Page({
   },
 
   clickcam: function(e){
+    var _this = this
     wx.chooseImage({
       count: 1, // 默认9
       sizeType: ['compressed'], // 可以指定是原图还是压缩图，默认二者都有
       sourceType: ['album','camera'], // 可以指定来源是相册还是相机，默认二者都有
       success: function (res) {
         // 返回选定照片的本地文件路径列表，tempFilePath可以作为img标签的src属性显示图片
-        var tempFilePaths = res.tempFilePaths
+        _this.setData({
+          tempFilePaths : res.tempFilePaths
+        })
+        console.log("path:",_this.data.tempFilePaths)
       }
     })
     /*wx.request({
@@ -115,9 +120,23 @@ Page({
         })
       }
     })*/
-    wx.navigateTo({
-      url: '/pages/end/end'
+    var _this = this
+    wx.uploadFile({
+      url: "http://210.41.100.75:8000/add",
+      filePath: _this.data.tempFilePaths[0],
+      name:'file',
+      formData:{
+        name:"plate"
+      },
+      success: function (res) {
+        console.log(res.data)
+        getApp().data.plateNum = res.data;
+        wx.navigateTo({
+          url: '/pages/end/end'
+        })
+      }
     })
+    
   
   }
   
