@@ -122,7 +122,7 @@ Page({
     })*/
     var _this = this
     wx.uploadFile({
-      url: "http://210.41.100.75:8000/add",
+      url: "http://45.40.240.199:8001/add",
       filePath: _this.data.tempFilePaths[0],
       name:'file',
       formData:{
